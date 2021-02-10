@@ -3,12 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+  
+    <title></title>
+      <link rel="icon" href="favicon.ico">
+      <link rel="icon" href="img/favicon/32.svg" type="image/svg+xml">
+      <link rel="apple-touch-icon" href="img/favicon/180x180.png">
+      <link rel="manifest" href="manifest.webmanifest">
+    
+
   </head>
   <body>
   <header>
     <nav>
        <a>
-        <img src="https://via.placeholder.com/150x100" alt="Логотип Нёрдс">
+        <img src="img/logo/nerds-logo.svg" width="160" height="65" alt="Логотип Нёрдс">
        </a>
        <ul>
          <li><a href="blank.html">Студия</a></li>
@@ -17,7 +25,9 @@
          <li><a href="blank.html">Контакты</a></li>
        </ul>
        <ul>
-        <li><a href="blank.html">Корзина</a></li>
+        <li>
+          <img src="img/icon/cart-icon.svg" width="15" height="15" alt="icon-cart">
+          <a href="blank.html">Корзина</a></li>
        </ul>
     </nav>
 
@@ -31,18 +41,19 @@
            <input type="radio" name="r" id="r2">  
            <input type="radio" name="r" id="r3">
   
-      <div class="slide">
-
-          <h2>Долго, дорого,<br>
-            скрупулезно.</h2>
-          <p>Математически выверенный дизайн <br>
-            для вашего сайта или мобильного приложения.
-          </p><img src="https://via.placeholder.com/150x100" alt="баннер 1">
-
+      <div class="slide"><h2>Долго, дорого,<br>
+            скрупулезно.</h2><p>Математически выверенный дизайн <br>
+            для вашего сайта или мобильного приложения.</p>
+            <img src="img/slider/nerds-index-slide1 .png" width="760" height="431" alt="баннер 1">
       </div>
 
-           <div class="slide"><img src="https://via.placeholder.com/150x100" alt="баннер 2"></div>
-           <div class="slide"><img src="https://via.placeholder.com/150x100" alt="баннер 3"></div>
+           <div class="slide"><h2>Любим математику<br>
+            как никто другой</h2><p>Никакого креатива, только математические формулы<br>
+            для расчета идеальных пропорций.</p><img src="img/slider/nerds-index-slide2.png" width="760" height="431" alt="баннер 2"></div>
+
+           <div class="slide"><h2>Только ночь,<br>
+            только хардкор</h2><p>Работать днем, как все? Мы против этого.<br>
+              Ближе к полуночи работа только начинается.</p><img src="img/slider/nerds-index-slide3.png" width="760" height="431" alt="баннер 3"></div>
   
          </div>
          
@@ -71,16 +82,16 @@
      <h2>Услуги</h2>
       <ul>
         <li>
-          <img src="https://via.placeholder.com/150x100" alt=" Картинка-1">
+          <img src="img/illustration/illustration-laptop.jpg" width="300" height="146" alt=" Картинка-1-веб-сайт">
           <h3>Веб-сайты</h3>
           <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-          <a href="#" >Заказать</a>
+          <button type="button">Заказать</button>
         
         </li>
 
         <li>
 
-          <img src="https://via.placeholder.com/150x100" alt=" Картинка-2">
+          <img src="img/illustration/illustration-phone.jpg" width="300" height="146" alt=" Картинка-2-приложения">
           <h3>Приложения</h3>
           <p>Покорите топ-10 приложений в AppStore и Google Play</p>
           <button type="button">Заказать</button>
@@ -88,7 +99,7 @@
         </li>
       
         <li>
-          <img src="https://via.placeholder.com/150x100" alt=" Картинка-3">
+          <img src="img/illustration/illustration-graph.jpg" width="300" height="146" alt="Картинка-3-презентации">
           <h3>Презентации</h3>
           <p>Вы даже не подозреваете, насколько вы изумительны!</p>
           <button type="button">Заказать</button>
@@ -117,7 +128,7 @@
   <section>
 
     <h2>Статистика</h2> 
-    <img src="https://via.placeholder.com/150x100" alt="Логотип">
+    <img src="img/illustration/nerds-illustration 1.jpg" width="360" height="208" alt="Логотип-статистика">
 
     <p>с 2004 года Любим точность во всем:</p>
     <table>
@@ -139,10 +150,10 @@
 
     <h2>Наши партнёры</h2>
     <ul>
-      <li> <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="https://via.placeholder.com/150x100" alt="Логотип HTML Academy"></a> </li>
-      <li><img src="https://via.placeholder.com/150x100" alt="Логотип Бородинский>"></li>
-      <li><img src="https://via.placeholder.com/150x100" alt="Логотип Pink"></li>
-      <li><img src="https://via.placeholder.com/150x100" alt="Логотип Mishka"></li>
+      <li> <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-partners/logo-html-academy.png" width="199" height="68" alt="Логотип HTML Academy"></a> </li>
+      <li><img src="img/logo-partners/logo-barbeshop.svg" width="209" height="90" alt="Логотип Бородинский>"></li>
+      <li><img src="img/logo-partners/logo-pink.png" width="185" height="52" alt="Логотип Pink"></li>
+      <li><img src="img/logo-partners/logo-mishka.png"  width="173" height="84" alt="Логотип Mishka"></li>
     </ul>
 
   </section>
@@ -156,7 +167,9 @@
     тел. +7 (812) 275-75-75</p>
     <a href="#">Напишите нам</a>
     <!-- Тут будет карта -->
-    <img src="https://via.placeholder.com/150x100" alt="map-marker">
+    <img src="img/map/map-marker 1.png" width="231" height="190" alt="map-marker">
+    <img src="img/map/map 1.jpg" width="1920" height="416" alt="map">
+    
    </section>
 
   
@@ -168,12 +181,24 @@
     <ul>
       <li>
         <a href="#">Вконтакте</a>
+        <img src="img/icon/vk-icon.svg" width="26" height="15" alt="icon-vk">
+        <svg width="81" height="81">
+          <circle r="40" cx="50%" cy="50%" fill="#E1E1E1"/>
+        </svg>
       </li>
       <li>
         <a href="#">Фейсбук</a>
+        <img src="img/icon/fb-icon.svg" width="12" height="33" alt="icon-fb">
+        <svg width="81" height="81">
+          <circle r="40" cx="50%" cy="50%" fill="#E1E1E1"/>
+        </svg>
       </li>
       <li>
         <a href="#">Инстаграм</a>
+        <img src="img/icon/insta-icon.svg" width="21" height="21" alt="icon-inst">
+        <svg width="81" height="81">
+          <circle r="40" cx="50%" cy="50%" fill="#E1E1E1"/>
+        </svg>
       </li>
     </ul>
   </section>
